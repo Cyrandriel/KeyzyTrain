@@ -1,0 +1,11 @@
+body{
+    overflow: hidden;
+    min-height: 100vh;
+    cursor: crosshair;
+}
+
+.bulle{
+    position: absolute;
+    border-radius: 300px;
+    background: rgb(55, 101, 158);
+}

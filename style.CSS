@@ -1,0 +1,68 @@
+*{
+    font-family: Impact, sans-serif;
+    letter-spacing: 6px;
+    word-spacing: 2.8px;
+    color: #0056ab;
+    text-align: center;
+    overflow: hidden; /* ce qui sort, casse pas la page */
+    
+
+}
+
+.mouseMove{
+    height: 60px;
+    width: 60px;
+    background-color: #ff9adc89;
+    position: absolute;
+    border-radius: 50px;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+nav{
+    padding: .5em .5em .5em .5em;
+    background-color: #a6d3ff;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+#home{
+    height: 3em;
+}
+
+h1{
+    font-size: 5em;
+    padding: .7em;
+    font-weight: bolder;
+}
+
+.boutonGlobal{
+    font-size: 2em;
+    color: #0056ab;
+    background: linear-gradient(90deg, #a6d3ff 0%, #fdb8ff 100%);
+    padding: 20px;
+    border: 2px solid #0056ab;
+    border-radius: 9px;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    margin: 1em auto;
+}
+.boutonGlobal:hover{
+    cursor: pointer;
+    background: #8cc5ff;
+    color: #001b36;
+}
+
+#menuRegle{
+    font-size: 2.3em;
+    font-weight: bolder;
+    margin: 1em;
+}
+
+
+.bulle{
+    position: absolute;
+    border-radius: 300px;
+    background: rgb(55, 101, 158);
+}
